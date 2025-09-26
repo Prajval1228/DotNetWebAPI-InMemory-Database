@@ -11,7 +11,7 @@ This is a simple .NET Web API project for managing books, created to explore .NE
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-
+ s
 ## Introduction
 
 The project is a RESTful Web API that provides endpoints to perform CRUD operations on books. It utilizes Entity Framework Core with an in-memory database for data storage.
