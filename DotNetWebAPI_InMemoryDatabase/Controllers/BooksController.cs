@@ -26,7 +26,7 @@ namespace DotNetWebAPI_InMemoryDatabase.Controllers
             _books.AddBook(book);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteBook(int id) 
         { 
             _books.DeleteBook(id);
